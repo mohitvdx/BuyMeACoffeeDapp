@@ -1,5 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-ethers");
+//require("@nomicfoundation/hardhat-web3");
 require("dotenv").config();
 
 const SEPOLIA_URL = process.env.SEPOLIA_URL;
