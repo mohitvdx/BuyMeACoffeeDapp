@@ -1,5 +1,7 @@
 const hre = require("hardhat");
 
+//Contract deployed to:  0x495200664Be66e79Cb0629913cd5DDa6edfFE57C
+
 async function main() {
     //get example account
     const [deployer,tipper, tipper2,tipper3] = await hre.ethers.getSigners();
@@ -20,4 +22,3 @@ main()
         process.exit(1);
     }
     );
-    
